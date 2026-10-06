@@ -1,3 +1,4 @@
+![Uploading Screenshot 2026-10-06 092917.png…]()
 # SubjectMate
 
 A course-specific question answering system using Retrieval-Augmented Generation (RAG).
