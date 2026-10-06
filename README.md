@@ -1,4 +1,3 @@
-![Uploading Screenshot 2026-10-06 092917.png…]()
 # SubjectMate
 
 A course-specific question answering system using Retrieval-Augmented Generation (RAG).
@@ -6,6 +5,7 @@ Students ask questions; SubjectMate retrieves the relevant passages from a fixed
 course files (PDF lecture notes, PowerPoint slides, Word documents, notebooks) and answers
 **only from those passages**, citing the file name and page or slide. If the material doesn't
 cover a question, it says so instead of guessing.
+<img width="1902" height="861" alt="Screenshot 2026-10-06 092917" src="https://github.com/user-attachments/assets/0036ea77-b9cb-4446-b17b-cf2d97ab5a91" />
 
 Team: Chirag Parida, Niladri Ghosh, Sampad Kar
 
