@@ -1,0 +1,774 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_instruction": "",
+  "min_score": 0.3,
+  "dimension": 384,
+  "num_chunks": 2567,
+  "chunk_size": 1000,
+  "chunk_overlap": 150,
+  "documents": [
+    {
+      "name": "DSA Surprise Test 1 Answer Key.docx",
+      "subject": "data structures & algorithms",
+      "pages": 2,
+      "chunks": 6
+    },
+    {
+      "name": "DSA Surprise Test 2.docx",
+      "subject": "data structures & algorithms",
+      "pages": 1,
+      "chunks": 3
+    },
+    {
+      "name": "DSA_Sample QB.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 34,
+      "chunks": 97
+    },
+    {
+      "name": "L05. Stacks and recursion.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 125,
+      "chunks": 126
+    },
+    {
+      "name": "L06. Queque and CQueue.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 47,
+      "chunks": 49
+    },
+    {
+      "name": "L07. Linked List.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 113,
+      "chunks": 112
+    },
+    {
+      "name": "L08. Introduction to trees_V1.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 31,
+      "chunks": 29
+    },
+    {
+      "name": "L09. Binary Trees_V1.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 157,
+      "chunks": 159
+    },
+    {
+      "name": "L10. BST_AVL_RB_V1.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 128,
+      "chunks": 127
+    },
+    {
+      "name": "L11. Heap and Priority_V1.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 82,
+      "chunks": 52
+    },
+    {
+      "name": "L12. Multiway search trees_V1.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 62,
+      "chunks": 65
+    },
+    {
+      "name": "L13. Hash functions and hash tables.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 88,
+      "chunks": 92
+    },
+    {
+      "name": "L14. Graph - Fundamentals.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 90,
+      "chunks": 93
+    },
+    {
+      "name": "L15. Graph - Traversal Connectedness.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 264,
+      "chunks": 263
+    },
+    {
+      "name": "L17. Algorithm types_V1.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 17,
+      "chunks": 23
+    },
+    {
+      "name": "L18. Graph algorithms - Minimum spanning tree_V1.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 105,
+      "chunks": 110
+    },
+    {
+      "name": "L19. Graph Dijkstra A Floyd-Warshall.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 142,
+      "chunks": 152
+    },
+    {
+      "name": "Linear Data Structures Question.pdf",
+      "subject": "data structures & algorithms",
+      "pages": 26,
+      "chunks": 48
+    },
+    {
+      "name": "Mid-Term SR.docx",
+      "subject": "data structures & algorithms",
+      "pages": 2,
+      "chunks": 5
+    },
+    {
+      "name": "Surprise test 1.docx",
+      "subject": "data structures & algorithms",
+      "pages": 1,
+      "chunks": 3
+    },
+    {
+      "name": "JI-2026-AIDS-ML2-Final-Exam-July-2026_ANSWER_KEY.pdf",
+      "subject": "machine learning ii",
+      "pages": 12,
+      "chunks": 7
+    },
+    {
+      "name": "Supervised Learning - Sample Paper.pdf",
+      "subject": "machine learning ii",
+      "pages": 5,
+      "chunks": 13
+    },
+    {
+      "name": "Supervised Learning_Sample Paper_Solutions_extra_questions.pdf",
+      "subject": "machine learning ii",
+      "pages": 17,
+      "chunks": 40
+    },
+    {
+      "name": "2026_Linear Algebra_Final Mock.docx",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 1,
+      "chunks": 3
+    },
+    {
+      "name": "2026_Quiz 2_LA.docx",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 2,
+      "chunks": 6
+    },
+    {
+      "name": "LA_Lecture 10_SM.pdf",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 24,
+      "chunks": 27
+    },
+    {
+      "name": "LA_Lecture 1_SM.pdf",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 29,
+      "chunks": 32
+    },
+    {
+      "name": "LA_Lecture 2_SM.pdf",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 25,
+      "chunks": 27
+    },
+    {
+      "name": "LA_Lecture 3_SM.pdf",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 28,
+      "chunks": 34
+    },
+    {
+      "name": "LA_Lecture 4_SM.pdf",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 15,
+      "chunks": 20
+    },
+    {
+      "name": "LA_Lecture 5_SM.pdf",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 8,
+      "chunks": 10
+    },
+    {
+      "name": "LA_Lecture 6_SM.pdf",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 27,
+      "chunks": 35
+    },
+    {
+      "name": "LA_Lecture 7_SM.pdf",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 29,
+      "chunks": 36
+    },
+    {
+      "name": "LA_Lecture 8_SM.pdf",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 29,
+      "chunks": 36
+    },
+    {
+      "name": "Linear Algebra Quiz_Questions.docx",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 2,
+      "chunks": 5
+    },
+    {
+      "name": "Mathematical Foundations II (Linear Alegbra)_CourseOutline_AI&DS_AY26-27_SamikMukerjee_V2.docx",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 4,
+      "chunks": 16
+    },
+    {
+      "name": "Practice set 1 answers.pdf",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 8,
+      "chunks": 18
+    },
+    {
+      "name": "Practice set 1 Questions.pdf",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 3,
+      "chunks": 6
+    },
+    {
+      "name": "Practice set 2 Questions.pdf",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 4,
+      "chunks": 11
+    },
+    {
+      "name": "Quiz 1_LA.docx",
+      "subject": "mathematical foundations ii (linear algebra)",
+      "pages": 2,
+      "chunks": 6
+    },
+    {
+      "name": "Categorical Variables.pptx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 21,
+      "chunks": 18
+    },
+    {
+      "name": "Comparisons Between Two Populations 2026.pptx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 22,
+      "chunks": 14
+    },
+    {
+      "name": "Final Exam Apr 2026 with $s.docx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 2,
+      "chunks": 6
+    },
+    {
+      "name": "How much to pack (1).pdf",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 2,
+      "chunks": 6
+    },
+    {
+      "name": "Hypothesis Test May 2026.pptx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 22,
+      "chunks": 19
+    },
+    {
+      "name": "Midterm 2026 With $s.docx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 3,
+      "chunks": 12
+    },
+    {
+      "name": "Midterm May 2026 - with solutions.docx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 5,
+      "chunks": 17
+    },
+    {
+      "name": "Multiple Regression.pptx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 24,
+      "chunks": 20
+    },
+    {
+      "name": "Practice Problems - 2.docx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 3,
+      "chunks": 10
+    },
+    {
+      "name": "Practice Problems.docx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 2,
+      "chunks": 7
+    },
+    {
+      "name": "Sampling and CI Apr 2026.pptx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 52,
+      "chunks": 55
+    },
+    {
+      "name": "Simple Linear Regression.pptx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 25,
+      "chunks": 22
+    },
+    {
+      "name": "SLR Diagnostics.pptx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 19,
+      "chunks": 19
+    },
+    {
+      "name": "United_Technologies.docx",
+      "subject": "mathematical foundations-i (probability & statistics)",
+      "pages": 2,
+      "chunks": 8
+    },
+    {
+      "name": "010-Mindsonai-Python-Final - answer key.pdf",
+      "subject": "python programming",
+      "pages": 2,
+      "chunks": 2
+    },
+    {
+      "name": "010-Mindsonai-Python-Final - questions.pdf",
+      "subject": "python programming",
+      "pages": 27,
+      "chunks": 47
+    },
+    {
+      "name": "alembic_fastapi_commands.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Continuous-Deployment.pdf",
+      "subject": "python programming",
+      "pages": 17,
+      "chunks": 15
+    },
+    {
+      "name": "Git-And-Github-VCS (1).pdf",
+      "subject": "python programming",
+      "pages": 35,
+      "chunks": 32
+    },
+    {
+      "name": "Hello-World-With-Apache-Kafka (1).pdf",
+      "subject": "python programming",
+      "pages": 16,
+      "chunks": 15
+    },
+    {
+      "name": "Packaging-ML-Models (1).pdf",
+      "subject": "python programming",
+      "pages": 32,
+      "chunks": 30
+    },
+    {
+      "name": "The-ML-OPS-Framework (1).pdf",
+      "subject": "python programming",
+      "pages": 32,
+      "chunks": 30
+    },
+    {
+      "name": "common_coding_interview_questions.md",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 7
+    },
+    {
+      "name": "basics.ipynb",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "control-flow.ipynb",
+      "subject": "python programming",
+      "pages": 2,
+      "chunks": 5
+    },
+    {
+      "name": "Datetime.ipynb",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 4
+    },
+    {
+      "name": "Dicts.ipynb",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 2
+    },
+    {
+      "name": "experiments (1).ipynb",
+      "subject": "python programming",
+      "pages": 2,
+      "chunks": 7
+    },
+    {
+      "name": "List-Methods.ipynb",
+      "subject": "python programming",
+      "pages": 4,
+      "chunks": 15
+    },
+    {
+      "name": "List-Remaining-Topics.ipynb",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Lists.ipynb",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 2
+    },
+    {
+      "name": "009-Mindsonai-Python - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "009-Mindsonai-Python - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "009-Mindsonai-Python - questions.pdf",
+      "subject": "python programming",
+      "pages": 4,
+      "chunks": 4
+    },
+    {
+      "name": "Mindsonai-007-Python - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-007-Python - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-007-Python - questions.pdf",
+      "subject": "python programming",
+      "pages": 3,
+      "chunks": 4
+    },
+    {
+      "name": "Mindsonai-Python-001 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-001 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-001 - questions.pdf",
+      "subject": "python programming",
+      "pages": 2,
+      "chunks": 2
+    },
+    {
+      "name": "Mindsonai-Python-002 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-002 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-002 - questions.pdf",
+      "subject": "python programming",
+      "pages": 2,
+      "chunks": 2
+    },
+    {
+      "name": "Mindsonai-Python-003 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-003 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-003 - questions.pdf",
+      "subject": "python programming",
+      "pages": 4,
+      "chunks": 4
+    },
+    {
+      "name": "Mindsonai-Python-004 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-004 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-004 - questions.pdf",
+      "subject": "python programming",
+      "pages": 5,
+      "chunks": 6
+    },
+    {
+      "name": "Mindsonai-Python-005 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-005 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-005 - questions.pdf",
+      "subject": "python programming",
+      "pages": 3,
+      "chunks": 3
+    },
+    {
+      "name": "Mindsonai-Python-006 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-006 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-006 - questions.pdf",
+      "subject": "python programming",
+      "pages": 5,
+      "chunks": 7
+    },
+    {
+      "name": "Mindsonai-Python-008 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-008 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Mindsonai-Python-008 - questions.pdf",
+      "subject": "python programming",
+      "pages": 4,
+      "chunks": 6
+    },
+    {
+      "name": "Jio-2023-001 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Jio-2023-001 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Jio-2023-001 - questions.pdf",
+      "subject": "python programming",
+      "pages": 2,
+      "chunks": 2
+    },
+    {
+      "name": "JIO-2023-002 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "JIO-2023-002 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "JIO-2023-002 - questions.pdf",
+      "subject": "python programming",
+      "pages": 2,
+      "chunks": 2
+    },
+    {
+      "name": "JIO-23-003 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "JIO-23-003 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "JIO-23-003 - questions.pdf",
+      "subject": "python programming",
+      "pages": 4,
+      "chunks": 4
+    },
+    {
+      "name": "JIO-23-004 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "JIO-23-004 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "JIO-23-004 - questions.pdf",
+      "subject": "python programming",
+      "pages": 5,
+      "chunks": 6
+    },
+    {
+      "name": "JIO-23-005 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "JIO-23-005 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "JIO-23-005 - questions.pdf",
+      "subject": "python programming",
+      "pages": 3,
+      "chunks": 3
+    },
+    {
+      "name": "JIO-23-006 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "JIO-23-006 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "JIO-23-006 - questions.pdf",
+      "subject": "python programming",
+      "pages": 5,
+      "chunks": 7
+    },
+    {
+      "name": "JIO-23-009 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "JIO-23-009 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "JIO-23-009 - questions.pdf",
+      "subject": "python programming",
+      "pages": 4,
+      "chunks": 4
+    },
+    {
+      "name": "Session 008  - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Session 008  - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "Session 008  - questions.pdf",
+      "subject": "python programming",
+      "pages": 4,
+      "chunks": 6
+    },
+    {
+      "name": "test_007 - answer key.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "test_007 - answer sheet.pdf",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 1
+    },
+    {
+      "name": "test_007 - questions.pdf",
+      "subject": "python programming",
+      "pages": 3,
+      "chunks": 4
+    },
+    {
+      "name": "Surprise_Quiz1.docx",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 2
+    },
+    {
+      "name": "Surprise_Quiz_2.docx",
+      "subject": "python programming",
+      "pages": 1,
+      "chunks": 2
+    }
+  ],
+  "built_at": "2026-10-05T17:39:23+00:00"
+}

@@ -1,0 +1,54 @@
+question,expected_sources
+What is principal component analysis and how is it computed?,LA_Lecture 10_SM.pdf
+How does Dijkstra's algorithm find the shortest path?,L19. Graph Dijkstra A Floyd-Warshall.pdf
+How do we find shortest paths between all pairs of vertices?,L19. Graph Dijkstra A Floyd-Warshall.pdf
+How do you construct a confidence interval for a population mean?,Sampling and CI Apr 2026.pptx
+What does a p-value tell us in hypothesis testing?,Hypothesis Test May 2026.pptx
+What is the difference between a stack and a queue?,L05. Stacks and recursion.pdf|L06. Queque and CQueue.pdf
+How does an AVL tree stay balanced?,L10. BST_AVL_RB_V1.pdf
+What happens when two keys hash to the same slot?,L13. Hash functions and hash tables.pdf
+How does Kruskal's algorithm build a minimum spanning tree?,L18. Graph algorithms - Minimum spanning tree_V1.pdf
+How is a priority queue implemented using a heap?,L11. Heap and Priority_V1.pdf
+How does breadth-first search traverse a graph?,L15. Graph - Traversal Connectedness.pdf
+What is a B-tree and why is it used for disk storage?,L12. Multiway search trees_V1.pdf
+How do you insert a node into a singly linked list?,L07. Linked List.pdf
+How does a circular queue reuse empty space?,L06. Queque and CQueue.pdf
+What order does an inorder traversal visit nodes in?,L09. Binary Trees_V1.pdf
+What problem does multicollinearity cause in multiple regression?,Multiple Regression.pptx
+How do you check regression assumptions using residual plots?,SLR Diagnostics.pptx|Multiple Regression.pptx
+How are dummy variables used for categorical predictors?,Categorical Variables.pptx
+How do we test whether two population means are different?,Comparisons Between Two Populations 2026.pptx
+How is the least squares regression line fitted?,Simple Linear Regression.pptx
+What are eigenvalues and eigenvectors of a matrix?,LA_Lecture 8_SM.pdf
+How does the Gram-Schmidt process produce orthonormal vectors?,LA_Lecture 6_SM.pdf|LA_Lecture 7_SM.pdf
+How do you compute the determinant of a matrix?,LA_Lecture 7_SM.pdf
+How do you project a vector onto a subspace?,LA_Lecture 6_SM.pdf
+What is the null space of a matrix?,LA_Lecture 4_SM.pdf|LA_Lecture 5_SM.pdf|LA_Lecture 3_SM.pdf
+When is a set of vectors linearly independent?,LA_Lecture 1_SM.pdf
+How do I create and switch branches in Git?,Git-And-Github-VCS (1).pdf
+What is Apache Kafka used for?,Hello-World-With-Apache-Kafka (1).pdf
+What is MLOps and what are its stages?,The-ML-OPS-Framework (1).pdf
+How do you package a trained machine learning model for deployment?,Packaging-ML-Models (1).pdf
+What is continuous deployment?,Continuous-Deployment.pdf
+How do Python list methods like append and extend differ?,List-Methods.ipynb|Lists.ipynb
+How do you solve a system of equations using elimination?,LA_Lecture 2_SM.pdf|LA_Lecture 3_SM.pdf
+what is PCA,LA_Lecture 10_SM.pdf
+SVD,LA_Lecture 10_SM.pdf
+linear probing,L13. Hash functions and hash tables.pdf
+LR rotation,L10. BST_AVL_RB_V1.pdf
+red black tree properties,L10. BST_AVL_RB_V1.pdf
+heapify,L11. Heap and Priority_V1.pdf
+topological sort,L15. Graph - Traversal Connectedness.pdf
+DFS,L15. Graph - Traversal Connectedness.pdf
+adjacency matrix representation,L14. Graph - Fundamentals.pdf
+infix to postfix,L05. Stacks and recursion.pdf
+recursion base case,L05. Stacks and recursion.pdf
+doubly linked list,L07. Linked List.pdf
+Prim's algorithm,L18. Graph algorithms - Minimum spanning tree_V1.pdf
+t distribution,Sampling and CI Apr 2026.pptx
+type I error,Hypothesis Test May 2026.pptx
+standard error of regression coefficients,Multiple Regression.pptx|SLR Diagnostics.pptx
+Kafka topics,Hello-World-With-Apache-Kafka (1).pdf
+docker,Packaging-ML-Models (1).pdf
+CI/CD pipeline for ML,The-ML-OPS-Framework (1).pdf|Continuous-Deployment.pdf
+pivot columns,LA_Lecture 4_SM.pdf|LA_Lecture 3_SM.pdf|LA_Lecture 5_SM.pdf

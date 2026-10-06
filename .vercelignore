@@ -1,0 +1,10 @@
+data/
+eval/
+scripts/
+streamlit_app.py
+requirements-dev.txt
+.env
+.venv/
+venv/
+**/__pycache__/
+tests/

@@ -1,0 +1,11 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.vercel/
+eval/results.csv
+# The course files are not needed at runtime (only index/ is deployed).
+data/pdfs/*
+!data/pdfs/.gitkeep
+data/extracted/

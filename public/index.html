@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SubjectMate</title>
+  <meta name="description" content="Ask questions about your course PDFs and get answers with page references.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">📘</span>
+      <div>
+        <h1>SubjectMate</h1>
+        <button class="docs-link" id="docsBtn" type="button">Loading course material…</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="newChatBtn" class="text-btn" type="button" title="Start a new conversation">New chat</button>
+      <label class="sr-only" for="providerSelect">Model</label>
+      <select id="providerSelect" title="Choose the LLM that writes answers"></select>
+      <button id="settingsBtn" class="icon-btn" type="button" title="API keys and models" aria-label="Settings">⚙</button>
+    </div>
+  </header>
+
+  <main id="chat" class="chat" aria-live="polite">
+    <section class="empty" id="empty">
+      <h2>Ask anything about your course</h2>
+      <p>Answers come only from the course material, with the file name and page or slide for each point.
+        If the material doesn't cover your question, SubjectMate will say so. You can ask follow-up questions.</p>
+      <div class="suggestions" id="suggestions"></div>
+    </section>
+  </main>
+
+  <form class="composer" id="composer">
+    <textarea id="question" rows="1" maxlength="2000" placeholder="Ask a question about the course…" required></textarea>
+    <button id="sendBtn" type="submit">Ask</button>
+  </form>
+  <p class="footnote">Answers can still be wrong. Check the cited pages.</p>
+
+  <dialog id="settings">
+    <form method="dialog" class="dialog-body">
+      <h2>Models &amp; API keys</h2>
+      <p class="muted">Choose any provider. If the server has no key for one, paste your own key below.
+        Your key stays in this browser and is sent only with your questions.</p>
+      <div id="providerSettings"></div>
+      <div class="dialog-actions"><button value="close">Done</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="docs">
+    <form method="dialog" class="dialog-body">
+      <h2>Course material</h2>
+      <ul id="docList" class="doc-list"></ul>
+      <div class="dialog-actions"><button value="close">Close</button></div>
+    </form>
+  </dialog>
+</body>
+</html>

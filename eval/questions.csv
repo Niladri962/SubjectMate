@@ -1,0 +1,4 @@
+id,question,expected_answer,expected_source,expected_pages,answerable
+1,REPLACE with a question answered in your PDFs,REPLACE with the correct answer,REPLACE_file_name.pdf,12,yes
+2,Who won the FIFA World Cup in 2018?,,,,no
+3,What is the current share price of Reliance Industries?,,,,no
